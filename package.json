@@ -1,0 +1,32 @@
+{
+    "name": "Con Theme",
+    "description": "Con Teamspeak5 Theme",
+    "version": "1.0.0",
+    "identifier": "xyz.chaoten.theme",
+    "engines": {
+        "teamspeak": 1
+    },
+    "repository": {
+        "url": "https://github.com/ChaotenHG/Teamspeak5Theme",
+        "directory": "Main",
+        "type": "git"
+    },
+    "image": "preview.png",
+    "license": "MIT",
+    "author": {
+        "name": "Con",
+        "email": "chaoten@NeverStopGaming.net",
+        "url": "https://NeverStopGaming.net",
+        "userTag": "Chaoten@myteamspeak.com"
+    },
+    "content": {
+        "themes": [
+            {
+                "name": "Main Theme",
+                "source": "Main.css",
+                "image": "Main.png",
+                "apiVersion": 1
+            }
+        ]
+    }
+}

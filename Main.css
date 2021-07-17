@@ -1,0 +1,179 @@
+}
+.tsv-view {
+    background: #353844;
+}
+
+.tsv-tabs-slim::before {
+    background: #353844;
+    border-radius: 8px;
+}
+
+.tsv-sidebar.tsv-view {
+    background: #252A33
+    border: none;
+}
+
+.tsv-header {
+    background: #252A33;
+    border: none;
+}
+
+.tsv-highlight.tsv-header, .tsv-sidebar .tsv-header {
+    background: #252A33;
+}
+
+.tsv-highlight.tsv-header::before {
+    background: #252A33;
+    -webkit-mask: none;
+
+}
+
+.tsv-bar {
+    background: #252A33;
+}
+
+.tsv-tab-item-active {
+    background: none;
+    border-radius: 0;
+}
+
+.tsv-tab-item-active::before {
+    background: none;
+    border-radius: 0px;
+}
+
+.ts-notification-widget {
+    flex-grow: 1;
+    align-self: stretch;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    background: #252A33;
+}
+
+.ts-notification {
+    text-shadow: none;
+}
+
+.tsv-item-active-indicator {
+    background: var(--tsv-shaded-item-selection);
+    z-index: -1;
+    display: none;
+    position: absolute;
+    top: var(--tsv-padding-v-minimal);
+    bottom: var(--tsv-padding-v-minimal);
+    left: var(--tsv-padding-h-small);
+    right: var(--tsv-padding-h-small);
+    border-radius: var(--tsv-border-radius);
+    pointer-events: none;
+}
+
+.ts-chat-message-system-body {
+    background: #353844;
+}
+
+:root {
+    --tsv-shaded-bg: #252A33;
+    --tsv-contrast-bg: #252A33;
+    --tsv-border-radius-large: 12px;
+    --tsv-separation-border-color: transparrent;
+    --tsv-separation-border: none;
+    --tsv-separation-border-strong-color: transparrent;
+    --tsv-separation-border-strong: none;
+    --tsv-separation-border-width: 0px;
+    --tsv-border-radius: 8px;
+    --tsv-bg: #353844;
+    --tsv-icon-tint: #16A085;
+    --tsv-icon-tint2: #16A085;
+    --tsv-tint: #16A085;
+    --tsv-tint2: #16A085;
+    --tsv-icon-base: #e0e0e0;
+    --tsv-scrollbar-bg: none;
+    --tsv-icon-base-contrast: #353844;
+    --tsv-hex-scale: none;
+	opacity: 0.8;
+	background: url('https://i.imgur.com/kYW2H5C.jpg');
+	 background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+/*
+	--theMain-Color: #1ac6ff;
+  --custom-color-accent-light: var(--theMain-Color);
+  --custom-color-accent-dark: var(--theMain-Color);
+  --custom-color-slider1: var(--theMain-Color);
+  --custom-color-slider2: var(--theMain-Color);
+  --tsv-font-subtitle-color: var(--theMain-Color) !important;
+  --tsv-chat-link-color: #d09b31 !important;
+  --tsv-highlight-color: #d8ac53 !important;
+  */
+}
+
+/* UI Chanages */
+
+    /* Disable BG HEX */
+
+:root {
+    --tsv-hex-scale: none;
+}
+    /* Width & Height */
+
+
+
+    /* Reverse Border Radius */
+
+        /* Server Tree */
+
+.ts-server-tree-wrapper {
+    background-color: #353844;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.ts-server-tree-wrapper::before {
+  content: "";
+  position: absolute;
+  background-color: #353844;
+  bottom: -50px;
+  border-radius: 24px;
+  box-shadow: 0 -25px 0 0 #001f3f;
+}
+
+.tsv-body {
+    background-color: #252A33;
+}
+
+        /* Dasboard */
+
+.tsv-view.tsv-item-view {
+    background-color: #353844;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.tsv-view.tsv-item-view::before {
+  content: "";
+  position: absolute;
+  background-color: #353844;
+  bottom: -50px;
+  border-radius: 24px;
+  box-shadow: 0 -25px 0 0 #001f3f;
+}
+
+/* Icon Rezizes */
+
+
+
+
+/* Font Changing */
+
+ /* Global */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--ts-primary-background, #333);
+    color: var(--ts-primary-font-color);
+}
+
+* {
+	font-weight: 600;
+}
